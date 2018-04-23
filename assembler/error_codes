@@ -1,0 +1,29 @@
+Key:
+@ - Label field
+% - Instruction field
+~ - Operand field
+$ - START, END, or File
+
+Errors for Labels:
+1 - Label must start with a letter
+2 - Only alphanumeric characters allowed
+3 - Label longer than 6 alphanumeric characters
+4 - Label is a duplicate
+5 - Too many symbols
+
+Errors for Instructions:
+1 - Not a valid mnenomic or directive
+2 - Missing operand for directive
+
+Errors for Operands:
+1 - Must use either X for hexadecimal digits or C for characters
+2 - Missing single quotes surrounding data with no spaces
+3 - Exceeds maximum length of character string (30)
+4 - Exceeds maximum length of hexadecimal digits (32)
+5 - Hexadecimal digits not even
+
+Errors for START and END directive and file errors:
+1 - Missing operand
+2 - File too long
+3 - No END found
+4 - Invalid operand

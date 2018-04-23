@@ -1,0 +1,6 @@
+*.obj
+*.lst
+*.o
+*.gch
+*.int
+sic-cli
